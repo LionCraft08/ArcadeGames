@@ -1,0 +1,20 @@
+name: ArcadeGames
+version: '${project.version}'
+main: de.lioncraft.arcadegames.ArcadeGames
+api-version: '1.20'
+permissions:
+  arcadegames.operator:
+    description: the default permission to manage the Arcade-Game-Area
+    default: op
+  arcadegames.play:
+    description: If this player can play arcade games
+    default: true
+commands:
+  arcadegames:
+    description: Funktionen, die für ArcadeGames benötigt werden
+    aliases:
+      - ag
+    usage: /ag <args>
+    permission: arcadegames.play
+
+

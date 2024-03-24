@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ArcadeGames:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ArcadeGames_jar</output-path>
+    <root id="archive" name="ArcadeGames.jar">
+      <element id="module-output" name="ArcadeGames" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/de/papiertuch/GiantAPI/1.0.1/GiantAPI-1.0.1.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
